@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+  background: -webkit-linear-gradient(45deg, #1d1f20, #15456a, #1d1f20);
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+}

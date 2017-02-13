@@ -53,7 +53,7 @@ app.on('ready', async () => {
     minWidth: 426
   });
 
-  mainWindow.loadURL(`file://${__dirname}/login-window.html`);
+  mainWindow.loadURL(`file://${__dirname}/app.html`);
 
   mainWindow.webContents.on('did-finish-load', () => {
     mainWindow.show();
