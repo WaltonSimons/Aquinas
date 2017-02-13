@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <script src="login-window.js"></script>
+  <head>
+    <link rel="stylesheet" type="text/css" href="login-window.css">
+    <meta charset="UTF-8">
+      <title>Steam login</title>
+  </head>
+  <body>
+      <div id="container">
+        <div id="dragbar">
+            <div id="nav-bar-buttons">
+                <img class="nav-button" onclick="minimizeButton()" src="images/minimize-button.png"/><img class="nav-button" onclick="closeButton()" src="images/close-button.png"/>
+            </div>
+        </div>
+        <input class="text-field" type="text" name="Account-Name"><br>
+        <input class="text-field" type="text" name="Password">
+      </div>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
