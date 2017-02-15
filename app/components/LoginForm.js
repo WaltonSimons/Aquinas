@@ -12,6 +12,8 @@ export default class LoginForm extends Component {
       <div>
         <input className={styles.text_field} type="text" name="Account-Name" />
         <input className={styles.text_field} type="password" name="Password" />
+        <button>LOGIN</button>
+        <button disabled>CANCEL</button>
       </div>
     );
   }

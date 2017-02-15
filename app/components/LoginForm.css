@@ -8,3 +8,45 @@
   border-width: 1px;
   border-color: #666666;
 }
+
+.text_field, select {
+  outline: none;
+}
+
+.text_field:focus {
+  border-color: #888888;
+}
+
+.text_field, textarea {
+  font-size: 12px;
+  padding-left: 5px;
+  color: #CCCCCC;
+}
+
+button {
+  background: -webkit-linear-gradient(top, #616161 , #4C4C4C);
+  border: 1px solid;
+  border-radius: 2px;
+  border-color: #666666;
+  font-size: 12px;
+  padding: 4px 4px 4px 4px;
+}
+
+button, select {
+  outline: none;
+}
+
+button:active {
+  background: -webkit-linear-gradient(top, #3B3B3B , #4C4C4C);
+  border-color: #5C5C5C;
+}
+
+button:disabled {
+  background: #363636;
+  border-color: #4C4C4C;
+}
+
+button, textarea {
+  color: #CCCCCC;
+  text-align: left;
+}
