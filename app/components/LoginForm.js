@@ -9,12 +9,12 @@ export default class LoginForm extends Component {
 
   render() {
     return(
-      <div>
-        <input className={styles.text_field} type="text" name="Account-Name" />
-        <input className={styles.text_field} type="password" name="Password" />
-        <button>LOGIN</button>
+      <form onSubmit={this.props.steamLogin}>
+        <input className={styles.text_field} type="text" name="account_name" />
+        <input className={styles.text_field} type="password" name="passw" />
+        <button type="submit">LOGIN</button>
         <button disabled>CANCEL</button>
-      </div>
+      </form>
     );
   }
 
